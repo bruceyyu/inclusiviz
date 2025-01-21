@@ -1,0 +1,102 @@
+[
+    {
+        "name": "food",
+        "fullname": "Food",
+        "type": "poi"
+    },
+    {
+        "name": "shopping",
+        "fullname": "Shopping",
+        "type": "poi"
+    },
+    {
+        "name": "work",
+        "fullname": "Work",
+        "type": "poi"
+    },
+    {
+        "name": "health",
+        "fullname": "Health",
+        "type": "poi"
+    },
+    {
+        "name": "religious",
+        "fullname": "Religious",
+        "type": "poi"
+    },
+    {
+        "name": "service",
+        "fullname": "Service",
+        "type": "poi"
+    },
+    {
+        "name": "entertainment",
+        "fullname": "Entertainment",
+        "type": "poi"
+    },
+    {
+        "name": "grocery",
+        "fullname": "Grocery",
+        "type": "poi"
+    },
+    {
+        "name": "education",
+        "fullname": "Education",
+        "type": "poi"
+    },
+    {
+        "name": "art",
+        "fullname": "Arts/Museum",
+        "type": "poi"
+    },
+    {
+        "name": "transportation",
+        "fullname": "Transportation",
+        "type": "poi"
+    },
+    {
+        "name": "sports",
+        "fullname": "Sports",
+        "type": "poi"
+    },
+    {
+        "name": "R_w",
+        "fullname": "White",
+        "type": "race"
+    },
+    {
+        "name": "R_b",
+        "fullname": "Black",
+        "type": "race"
+    },
+    {
+        "name": "R_h",
+        "fullname": "Hispanic",
+        "type": "race"
+    },
+    {
+        "name": "R_a",
+        "fullname": "Asian",
+        "type": "race"
+    },
+    {
+        "name": "I_1",
+        "fullname": "Under $50K",
+        "type": "income"
+    },
+    {
+        "name": "I_2",
+        "fullname": "$50K - $100K",
+        "type": "income"
+    },
+    {
+        "name": "I_3",
+        "fullname": "$100K - $200K",
+        "type": "income"
+    },
+    {
+        "name": "I_4",
+        "fullname": "Over $200K",
+        "type": "income"
+    }
+]

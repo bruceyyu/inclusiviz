@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html * {
+  font-size: 0.75rem;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.view-label {
+  font-size: 1.1rem;
+  height: 2rem;
+  font-weight: bold;
+  /* line-height: 2rem; */
+  padding: 0.2rem 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #8f98a4;
+    opacity: 0.5;
+    bottom: 0.4rem;
+    left: 0.5rem;
+  }
+}
+
+.ant-slider-horizontal.ant-slider-with-marks {
+  margin-bottom: 0;
+}
+.ant-switch-inner {
+  background-color: gray;
+}

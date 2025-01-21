@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  .cell {
+    width: 40px;
+    height: 40px;
+  }
+  .label {
+    width: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}

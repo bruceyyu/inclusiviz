@@ -1,0 +1,49 @@
+.layout {
+  height: 100vh;
+  .header {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(227, 227, 227);
+    // padding: 0.2rem;
+    box-sizing: border-box;
+    .grid-container {
+      display: grid;
+      grid-template-columns: 33% 30% 37%; /* Define the column sizes */
+      grid-template-rows: 50% 50%;
+      height: 100vh;
+    }
+    .section {
+      background: white;
+      box-sizing: border-box;
+      border: 0.2rem solid #e5e4e9;
+      padding: 0.5rem;
+    }
+    .view1 {
+      grid-column: 1; /* Place in the first column */
+      grid-row: 1 / span 2; /* Span across two rows if you want it to take full height */
+    }
+    .view2{
+      grid-column: 2/ span 1; /* Place in the second column */
+    }
+    .view3 {
+      grid-column: 2; /* Place in the second column */
+    }
+    .view2 {
+      grid-row: 1; /* Place in the first row of the second column */
+    }
+    .view3 {
+      grid-row: 2; /* Place in the second row of the second column */
+      grid-column: 2/ span 2;
+    }
+    .view4 {
+      grid-column: 3; /* Place in the first column */
+      grid-row: 1 / span 1; /* Span across two rows if you want it to take full height */
+    }
+  }
+}
